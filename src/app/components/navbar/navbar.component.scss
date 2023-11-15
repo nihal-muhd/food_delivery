@@ -1,0 +1,40 @@
+:host {
+  display: flex;
+  padding: 0 16px;
+  height: 50px;
+  background-color: antiquewhite;
+}
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  background-image: url("../../../assets/svg/zomato.svg");
+  width: 56px;
+  height: 56px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50px;
+}
+.middle {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.option {
+  cursor: pointer;
+}
+.signin-btn {
+  height: 30px;
+  width: 60px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 13px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}

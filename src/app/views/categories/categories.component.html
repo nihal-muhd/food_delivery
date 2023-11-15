@@ -1,1 +1,12 @@
-<p>categories works!</p>
+<div
+  class="card"
+  style="width: 18rem"
+  *ngFor="let item of foodCategory.slice(0, 3)"
+>
+  <img class="card-img-top" [src]="item.photoUrl" alt="Card image cap" />
+  <div class="card-body">
+    <h5 class="card-title">{{ item.categoryName }}</h5>
+
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>

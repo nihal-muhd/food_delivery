@@ -8,6 +8,7 @@ import { LoginComponent } from './views/login/login.component';
 import { CategoriesComponent } from './views/categories/categories.component';
 import { RestaurantItemsComponent } from './views/restaurant-items/restaurant-items.component';
 import { CreateOrderComponent } from './views/create-order/create-order.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { CreateOrderComponent } from './views/create-order/create-order.componen
     CreateOrderComponent,
     NavbarComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })
